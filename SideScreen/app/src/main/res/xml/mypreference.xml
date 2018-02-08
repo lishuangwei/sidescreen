@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="crooked_switch"
+        android:title="@string/app_label" />
+
+    <Preference
+        android:key="touch_position"
+        android:title="@string/touch_position" />
+
+</PreferenceScreen>

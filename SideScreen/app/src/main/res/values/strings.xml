@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SideScreen</string>
+    <string name="wifi_label">wifi</string>
+    <string name="calculator_label">calculator</string>
+    <string name="flashlight_label">flashlight</string>
+    <string name="camera_label">camera</string>
+    <string name="voice_label">voice</string>
+    <string name="settings_label">settings</string>
+    <string name="brightness_label">brightness</string>
+    <string-array name="app_labels">
+        <item>@string/wifi_label</item>　　
+        <item>@string/calculator_label</item>　　
+        <item>@string/flashlight_label</item>　　
+        <item>@string/camera_label</item>
+        <item>@string/voice_label</item>
+    </string-array>
+
+    <string name="activity_title">Application side screen</string>
+    <string name="app_label">Surface side screen</string>
+    <string name="touch_position">The position of the touch button on the side screen of the surface</string>
+    <string name="touch_position_right">right</string>
+    <string name="touch_position_left">left</string>
+    <string name="touch_position_info">Click the side gray area to change the button position</string>
+    <string name="request_permission">please change permissions in settings apps</string>
+</resources>

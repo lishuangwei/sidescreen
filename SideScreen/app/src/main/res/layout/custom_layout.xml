@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.v.smartassistant.sidescreen.CustomView.VDHLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customLay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.v.smartassistant.sidescreen.Activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/id_container_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/main_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <org.askerov.dynamicgrid.DynamicGridView
+            android:id="@+id/dynamic_grid"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:numColumns="1" />
+
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/seekbar_brightness"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:max="255"
+                android:maxHeight="1dp"
+                android:progressDrawable="@drawable/progress_background"
+                android:splitTrack="false"
+                android:thumb="@drawable/seekbar_thumb"
+                app:seekBarRotation="CW270" />
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bt_draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/slide" />
+</com.v.smartassistant.sidescreen.CustomView.VDHLayout>
